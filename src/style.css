@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  span {
+    @apply font-semibold
+}
+  .container-mb {
+    @apply max-w-[360px] mx-auto px-[16px];
+  }
+}
